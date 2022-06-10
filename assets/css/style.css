@@ -2048,3 +2048,66 @@ section {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.event-card .card {
+  border : none;
+  color : white;
+  background : #ffffff00;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.event-card .card .card-title {
+  color : #d9b08c;
+}
+
+.event-card .card:hover{
+  background : #d9b08c;
+}
+.event-card .card:hover .card-title{
+  color: #fff;
+}
+
+/* .event-card .card .card-title:hover {
+  color : #fff;
+} */
+
+.event-card .card h5{
+  font-size : 90px;
+}
+
+.event-card-group{
+  margin-top: 100px;
+}
+
+.events-book {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background:#191919;
+
+}
+
+.events-button{
+  margin-top: 35px;
+  background:#d9b08c;
+  color:#fff;
+}
+
+.project-book{
+  background: #191919;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.project-book .row {
+  align-items: center;
+  text-align: center;
+}
+
+.img-fluid-project-female{
+  border-radius: 10px;
+}
+
+.project-title{
+  color: #d9b08c;
+}
