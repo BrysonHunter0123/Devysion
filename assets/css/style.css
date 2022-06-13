@@ -392,15 +392,16 @@ h6 {
 #hero .carousel-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   position: absolute;
   bottom: 0;
-  top: 70px;
+  /* top: 70px; */
   left: 50px;
   right: 50px;
+  bottom: 150px;
 }
 #hero .container {
-  text-align: center;
+  text-align: left;
 }
 #hero h2 {
   color: #fff;
@@ -419,15 +420,19 @@ h6 {
   #hero h2 {
     font-size: 28px;
   }
+  #hero p {
+    font-size: 20px !important;
+  }
 }
 #hero p {
-  width: 80%;
-  margin: 0 auto 30px auto;
+  width: 60%;
+  /* margin: 0 auto 30px auto; */
+  font-size: 30px;
   color: #fff;
 }
 @media (min-width: 1024px) {
   #hero p {
-    width: 60%;
+    width: 80%;
   }
 }
 #hero .carousel-fade {
@@ -997,6 +1002,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
+  color: #ddd;
   padding-top: 40px;
 }
 .portfolio-details .portfolio-details-slider img {
@@ -2078,6 +2084,7 @@ section {
 
 .event-card-group{
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .events-book {
@@ -2110,4 +2117,82 @@ section {
 
 .project-title{
   color: #d9b08c;
+}
+
+.detail-content-title{
+  color: #d9b08c;
+}
+
+.detail-content-body{
+  color: #d5d5d5;
+}
+
+.detail-content{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.detail-content-body{
+  padding-top: 75px;
+}
+
+.detail-content-body .content-left{
+  border-right: 1px solid #fff;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.detail-content-body .content-right{
+  padding-left: 50px;
+}
+
+.detail-content-body .content-right .intro-group p{
+  padding-top: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.detail-content hr{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.challenge-group{
+  margin-top: 100px;
+}
+
+.challenge-group-title{
+  color: #d9b08c;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.challenge-group-content p{
+  color: #d5d5d5;
+  font-size: 18px;
+}
+
+.part-content{
+  margin-top: 50px;
+}
+
+.part-content img{
+  border-radius: 10px;
+}
+
+.credit {
+  margin-top: 100px;
+}
+
+.credit-group label{
+  color: #b2b2b2;
+}
+.credit-group p{
+  font-size: 12px;
+  color: #fff;
+}
+
+.credit-content{
+  padding-top: 100px;
 }
